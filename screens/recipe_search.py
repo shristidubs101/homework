@@ -2,6 +2,9 @@ import streamlit as st
 import requests
 import math
 
+def load_local_css():
+    pass
+
 def get_ingredients(meal):
     """Extract ingredients and measurements from meal data"""
     ingredients = []

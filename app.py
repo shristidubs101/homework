@@ -49,17 +49,17 @@ page = st.sidebar.radio("Go to:", [
 
 # Dynamic page loading
 if page == "Recipe Recommender":
-    from pages import recipe_search
+    from screens import recipe_search
     recipe_search.run()
 
 elif page == "Meal Planner":
-    from pages import meal_planner
+    from screens import meal_planner
     meal_planner.run()
 
 elif page == "Grocery List":
-    from pages import grocery_list
+    from screens import grocery_list
     grocery_list.run()
 
 elif page == "Mystery Box Challenge":
-    from pages import mystery_box
+    from screens import mystery_box
     mystery_box.run()
